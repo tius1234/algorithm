@@ -5,9 +5,9 @@ def climb_stairs(stair_list):
 
     if len(stair_list) < 1:
         return 0
-    if len(stair_list) == 1:
+    elif len(stair_list) == 1:
         return stair_list[0]
-    if len(stair_list) == 2:
+    elif len(stair_list) == 2:
         return stair_list[0] + stair_list[1]
 
     result_list = [
