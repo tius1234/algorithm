@@ -3,3 +3,5 @@ bin/
 *.py[cod]
 .idea
 .vscode
+fail/
+sample.cpp
